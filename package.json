@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "open test/index.html"
+    "test": "wslview test/index.html"
   },
   "author": "",
   "license": "ISC",

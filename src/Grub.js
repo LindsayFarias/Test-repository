@@ -1,9 +1,11 @@
 class Grub {
-  /* START SOLUTION */
-  constructor() {
-    
+  constructor(age = 0, color = 'pink') {
+    this.age = age;
+    this.color = color;
+    this.food = 'jelly';
   }
 
-  
-  /* END SOLUTION */
+  eat(){
+    return 'Mmmmmmmmm jelly';
+  }
 };

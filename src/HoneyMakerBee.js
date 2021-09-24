@@ -1,3 +1,15 @@
-/* START SOLUTION */
+class HoneyMakerBee extends Bee {
+    constructor() {
+        super(10, 'make honey');
+        this.honeyPot = 0 ;
+    }
 
-/* END SOLUTION */
+    makeHoney(){
+        this.honeyPot++;
+    }
+
+    giveHoney(){
+        this.honeyPot--;
+    }
+    
+  };

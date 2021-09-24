@@ -22,7 +22,7 @@ As you can see in the diagram above, all bees start out as a Grub, grow into a B
 
 ### npm
 
-- Don't worry for now about how npm works. Just know that when `npm install` is run from the command line, the packages listed in `package.json` will be automatically installed to a `node_modules` directory.
+- Don't worry for now about how npm works. Just know that when `npm install` is run  from the command line,the packages listed in `package.json` will be automatically installed to a `node_modules` directory.
   - [ ] If you don't have npm installed on your system, install it by running `brew install node`. npm is installed for you when you install Node.
   - [ ] Use npm to install dependancies by running the following command from the root directory of the repo: `npm install`.
 

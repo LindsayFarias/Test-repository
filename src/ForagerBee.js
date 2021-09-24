@@ -1,3 +1,12 @@
-/* START SOLUTION */
+class ForagerBee extends Bee {
+    constructor(age = 10, job = 'find pollen', canFly = true, color = 'yellow') {
+        super(age, job, color);
+        this.canFly = canFly;
+        this.treasureChest = [];
+    }
 
-/* END SOLUTION */
+    forage(treasure){
+            this.treasureChest.push(treasure)
+    }
+    
+  };

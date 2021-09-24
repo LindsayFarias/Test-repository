@@ -1,3 +1,15 @@
-/* START SOLUTION */
+class RetiredForagerBee extends ForagerBee {
+    constructor() {
+        super(40, 'gamble', false, 'grey');
+    }
 
-/* END SOLUTION */
+    forage (){
+        return 'I am too old, let me play cards instead'
+    }
+
+    gamble (treasure){
+        super.forage(treasure)
+    }
+    
+    
+  };
